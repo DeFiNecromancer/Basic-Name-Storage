@@ -14,8 +14,8 @@ contract nameStorage {
         /* This is an externally callable function that changes the state
            variable content for the 'name' variable to whatever is passed
            to the function in the place of the _name parameter. To save on 
-           gas, rather than using the public paramater, external has been to
-           save on gas as this function will not to be called within by the 
+           gas, rather than using the public parameter, external has been utilized.
+           This is suitable because this function will not to be called within by the 
            contract itself, only by an external account. */
     }
 
