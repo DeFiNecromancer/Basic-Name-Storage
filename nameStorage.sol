@@ -15,7 +15,7 @@ contract nameStorage {
            variable content for the 'name' variable to whatever is passed
            to the function in the place of the _name parameter. To save on 
            gas, rather than using the public parameter, external has been utilized.
-           This is suitable because this function will not to be called within by the 
+           This is suitable because this function will not be called within by the 
            contract itself, only by an external account. */
     }
 
